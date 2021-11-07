@@ -1,0 +1,40 @@
+.link_request {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 22px;
+}
+.request_user {
+    font-size:2.5vw;
+}
+.accept_btns button {
+  color: white;
+  background-color: #9052c4;
+  padding: 0.3vw 1.2vw;
+  margin-top: 18px;
+  margin-left:15px;
+  font-size: 1vw;
+  border-radius: 3.5px;
+  box-shadow: 1px 1px 4px black;
+  text-shadow: 1px 1px 5px black;
+}
+.request_container {
+  padding: 10px 30px;
+  background-color: #3d1a5c;
+  display: flex;
+  text-shadow: 1px 1px 5px black;
+}
+.request_user {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+}
+.request_container img {
+  border-radius: 50%;
+  border: 1px outset rgba(0, 0, 0, 0.322);
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.795);
+  height: 8vw;
+  width: 8vw;
+  background-color: white;
+}

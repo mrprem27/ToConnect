@@ -1,0 +1,38 @@
+.info_bar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9052c4;
+    border-radius: 5px;
+  padding: .2vw 1vw;
+    box-shadow: 1px 1px 5px black;
+}
+.infobar_in img {
+  height:5.7vw;
+  width: 5.7vw;
+  border-radius: 50%;
+  border: 1px outset rgba(0, 0, 0, 0.322);
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.795);
+  background-color: white;
+}
+.infobar_in {
+  display: flex;
+  align-items: center;
+}
+.info_a span {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+    text-shadow: 1px 1px 4px black;
+  color: white;
+  margin-left: 20px;
+}
+.info_bar_container button{
+  padding: 0.7vw 1.5vw;
+  background-color: #3d1a5c;
+  color: white;
+  font-size:16px;
+  text-shadow: 1px 1px 4px black;
+  box-shadow: 1px 1px 4px black;
+  border-radius: 0.4vw;
+}

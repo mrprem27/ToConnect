@@ -1,0 +1,116 @@
+.gi_img {
+  width: 250px;
+  height: 250px;
+}
+.gi_container {
+  padding: 2vw 3.7vw;
+  background-color: #3d1a5c;
+}
+.gi_details_cover {
+  display: flex;
+}
+.back_gi {
+  width: 120px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 4px;
+  color: rgb(247, 246, 245);
+  text-shadow: 0.5px 0.5px 3px black;
+  box-shadow: 0px 0px 1px black;
+  background-color: #9052c4;
+  border: 1.6px outset rgba(0, 0, 0, 0.609);
+}
+.gi_cover {
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+  background-color: #9052c4;
+}
+.gi_details {
+  padding: 15px 30px;
+  font-size: 25px;
+  margin-left: -62px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+}
+.gi_admin div {
+  border-radius: 5px;
+}
+.gi_admin h4,
+#users_gi_h2 {
+  padding: 15px 10px;
+  font-style: italic;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+}
+.gi_btns {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.gi_btns button {
+  width: 100px;
+  margin: 9px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 4px;
+  color: rgb(247, 246, 245);
+  text-shadow: 0.5px 0.5px 3px black;
+  box-shadow: 0px 0px 1px black;
+  background-color: #3d1a5c;
+  border: 1.6px outset rgba(0, 0, 0, 0.609);
+}
+
+.gi_addusers_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 8px;
+}
+.gi_addusers_top button {
+  width: 100px;
+  margin: 9px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 4px;
+  color: rgb(247, 246, 245);
+  text-shadow: 0.5px 0.5px 3px black;
+  box-shadow: 0px 0px 1px black;
+  background-color: #3d1a5c;
+  border: 1.6px outset rgba(0, 0, 0, 0.609);
+}
+.gi_addusers_top h3 {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+}
+.gi_addusers {
+  display: flex;
+  padding: 10px 15px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #3d1a5c;
+  width: 100vw;
+  min-height: 100vh;
+}
+.gi_addusers_cover {
+  width: 530px;
+  min-height: fit-content;
+  box-shadow: 0px 0px 8px black;
+  border-radius: 4px;
+  background-color: #9052c4;
+  margin: 5px;
+}
+.no_users_to_all{
+    font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+  text-align: center;
+}

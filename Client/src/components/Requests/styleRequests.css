@@ -1,0 +1,40 @@
+.requests_container {
+  background-color: #3d1a5c;
+  min-height: 100vh;
+  padding: 2.8vw 4vw;
+}
+.requests_top {
+  background-color: #9052c4;
+  border-radius: 5.5px;
+  display: flex;
+  padding: 0.9vw 1.5vw;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px black;
+}
+.requests_top h2 {
+  color: white;
+  font-size: 1.8vw;
+  text-shadow: 1px 1px 5px black;
+}
+.requests_top button {
+  color: white;
+  background-color: #3d1a5c;
+  padding: 0.5vw 2vw;
+  font-size: 1.5vw;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px black;
+  text-shadow: 1px 1px 5px black;
+}
+.requests_results_cover {
+  background-color: #9052c4;
+  border-radius: 5px;
+  padding:1.8vw 3vw;
+}
+.no_requests {
+  text-align: center;
+  color: white;
+  padding: 4vw 2vw;
+  font-size: 2vw;
+  text-shadow: 1px 1px 5px black;
+}

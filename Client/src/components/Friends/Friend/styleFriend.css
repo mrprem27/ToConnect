@@ -1,0 +1,26 @@
+.friend_list {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+}
+.friend_container {
+  padding: 10px 30px;
+  background-color: #3d1a5c;
+  display: flex;
+  text-shadow: 1px 1px 5px black;
+}
+.friend_list span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 1px 1px 5px black;
+}
+.friend_container img {
+  border-radius: 50%;
+  border: 1px outset rgba(0, 0, 0, 0.322);
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.795);
+  background-color: white;
+}
+*{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

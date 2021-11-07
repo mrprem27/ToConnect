@@ -1,0 +1,31 @@
+.single_message_container {
+  background-color: #9052c4;
+  padding: 5px 12px;
+  margin: 7px 3px;
+  width: fit-content;
+  max-width: 80vw;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.692);
+  box-shadow: 1px 1px 8px black;
+  font-size: 21px;
+  border-radius: 4px;
+}
+.single_mssg_img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+}
+.message_cover_right {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.message_cover_left {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.message_cover_right i,
+.message_cover_left i {
+  color: white;
+}

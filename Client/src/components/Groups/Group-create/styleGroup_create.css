@@ -1,0 +1,121 @@
+.gc_top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3d1a5c;
+  align-items: center;
+  padding: 1px 9px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  border-radius: 4px;
+}
+.gc_top button {
+  margin: 9px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: rgb(247, 246, 245);
+  text-shadow: 0.5px 0.5px 3px black;
+  box-shadow: 0px 0px 1px black;
+  background-color: #9052c4;
+  border: 1.6px outset rgba(0, 0, 0, 0.609);
+}
+.gc_container {
+  display: flex;
+  align-items: center;
+  padding: 5vw 0;
+  min-height: 100vh;
+  background-color: #3d1a5c;
+  flex-direction: column;
+}
+.gc_img {
+  display: flex;
+  margin: 15px 10px;
+  justify-content: center;
+}
+.gc_img img {
+  box-shadow: 0px 0px 5px black;
+  background-color: white;
+  width: 270px;
+  border-radius: 4px;
+  height: 270px;
+}
+.gc_all {
+  width: 500px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 7px black;
+  background-color: #9052c4;
+  padding: 20px 30px;
+}
+.gc_all input {
+  width: 300px;
+  border: 4px;
+  border-radius: 4px;
+  background-color: rgb(222, 204, 224);
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #3d1a5c;
+  color: white;
+  margin: 5px 0;
+  text-shadow: 0.2px 0.2px 0.2px black;
+  border: none;
+  border-bottom: 1.5px outset white;
+}
+.gc_form form input::placeholder {
+  color: white;
+  text-shadow: 1px 1px 10px black;
+}
+.modal_gc {
+  width: 100vw;
+  margin: 15px;
+  display: flex;
+  position: absolute;
+  top: 1vw;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+.gc_modal_base {
+  padding: 8px 12px;
+  border-radius: 5px;
+  box-shadow: 0.6px 0.6px 1.5px black;
+  color: rgb(247, 246, 245);
+  text-shadow: 0.5px 0.5px 4px black;
+  box-shadow: 0px 0px 3 black;
+  background-color: #9052c4;
+  width: fit-content;
+  margin: auto;
+  height: 35px;
+  /*kya karu iska*/
+  transition: visibility 1s ease-in-out;
+}
+.show_class {
+  visibility: visible;
+}
+.gc_form form button {
+  width: 260px;
+  margin: 9px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 4px;
+  color: rgb(247, 246, 245);
+  text-shadow: 0.5px 0.5px 3px black;
+  box-shadow: 0px 0px 1px black;
+  background-color: #3d1a5c;
+  border: 1.6px outset rgba(0, 0, 0, 0.609);
+}
+.gc_form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add_users_list h3{
+    margin:8px 0;
+   background-color: #3d1a5c;
+  align-items: center;
+  padding: 6px 9px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+  border-radius: 4px;
+}

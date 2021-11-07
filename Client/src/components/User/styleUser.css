@@ -1,0 +1,169 @@
+.nav_user {
+  display: flex;
+  width: fit-content;
+}
+.nav_cover {
+  width: 97vw;
+  display: flex;
+}
+.nav_links {
+  width: max-content;
+}
+.nav_links a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nav_links div {
+  background-color: #9052c4;
+  width: 24.722vw;
+  border-radius: 2px;
+  border-left: 2px solid black;
+  text-align: center;
+  padding: 0.5vw 0.2vw;
+  color: white;
+  border-bottom: none;
+  text-shadow: 1px 1px 8px black;
+  font-size: x-large;
+}
+.first_link div{
+  border-bottom-left-radius:0;
+  border-left: none;
+}
+#me {
+  background-color: #3d1a5c;
+}
+.user_container {
+  background-color: black;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-attachment: fixed;
+}
+.user_main_bottom {
+  background-color: #9052c4;
+  height: max-content;
+  margin: 0 8vw;
+  box-shadow: 0px 0px 8px rgb(0, 0, 0);
+  border-radius: 4px;
+  padding:2vw 6.5vw;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+.user_main {
+  background-color: #3d1a5c;
+  min-height: 100vh;
+}
+.user_main_top {
+  display: flex;
+  width: 80vw;
+  margin: 0 30px;
+  padding: 40px;
+  padding-bottom: 5px;
+  justify-content: space-around;
+  background-color: #3d1a5c;
+}
+.user_bio {
+  margin: 10px 0;
+  background-color: #3d1a5c;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 5px;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.897);
+}
+.user_bio p {
+  margin: 20px 0px;
+  margin-top: 5px;
+  padding-top: 10px;
+  background-color: #9052c4;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.705);
+}
+.user_main_top_right {
+  width: 30vw;
+  margin: 4vw;
+  border-radius: 5px;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  font-size: 1.56vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
+  line-height: 3vw;
+  padding: 2vw 2.5vw;
+  margin-left: -10vw;
+  justify-content: space-around;
+  background-color: #9052c4;
+}
+.user_main_top_right button {
+  padding: 0.6vw 2.5vw;
+  border-radius: 3px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3vw;
+  border-radius: 5px;
+  color: white;
+  background-color: #3d1a5c;
+  text-shadow: 1px 1px 10px black;
+  margin-top: 1.8vw;
+}
+.user_main_top_right p {
+  margin-top: -6px;
+  text-transform: capitalize;
+}
+.user_main_top_left img {
+  border-radius: 50%;
+  border: 1px outset rgba(0, 0, 0, 0.322);
+  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.932);
+  background-color: white;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 18vw;
+  height: 18vw;
+}
+.user_friends h3 {
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px 0;
+  padding: 12px 8px;
+  text-shadow: 1px 1px 5px black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  border-radius: 5px;
+  background-color: beige;
+  background-color: #3d1a5c;
+}
+.logout_btn {
+  position: absolute;
+  right: 6vw;
+  top: 7vw;
+}
+.logout_btn button {
+  padding: 0.4vw 2.5vw;
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3vw;
+  color: white;
+  background-color: #9052c4;
+  text-shadow: 1px 1px 10px black;
+}
+.user_friend {
+  padding: 1px;
+  box-shadow: 0px 0px 4px rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.locked_friends {
+  text-align: center;
+  margin-top: 30px;
+  font-size: xx-large;
+}
+#chat_user_btn a {
+  border-radius: 6px;
+  color: white;
+  background-color: #9052c4;
+  text-shadow: 1px 1px 10px black;
+  font-size: 18px;
+}
+.edit_show{
+  background-color: aqua;
+  color: white;
+}

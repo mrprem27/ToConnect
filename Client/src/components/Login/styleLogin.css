@@ -1,0 +1,190 @@
+.login_top {
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 8px;
+  text-shadow: 0px 0px 8px black;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+.loader {
+  position: fixed;
+  z-index: 4;
+  background-color: rgba(32, 12, 51, 0.411);
+  height: 100vh;
+  width: 100vw;
+}
+.loader_in{
+  display: flex;
+  justify-content: center;
+}
+.leftbox img {
+  box-shadow: 0px 0px 3px black;
+}
+.main_section {
+  background-color: #3d1a5c;
+  display: flex;
+  color: white;
+  width: max-content;
+  margin-top: 25px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.login_section {
+  display: flex;
+  justify-content: center;
+}
+.section_holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left_section {
+  padding: 8px 10.7px;
+  width: 300px;
+}
+.left_section form input {
+  width: 267px;
+  text-shadow: 1px 1px 8px black;
+  background-color: rgb(222, 204, 224);
+  padding: 8px;
+  font-size: 16px;
+  background-color: #3d1a5c;
+  color: white;
+  margin: 8px 0;
+  text-shadow: 0.2px 0.2px 0.2px black;
+  border: none;
+  border-bottom: 1.5px outset white;
+}
+.left_section input::placeholder {
+  color: white;
+  text-shadow: 1px 1px 10px black;
+}
+.left_section input:focus {
+  outline: none;
+}
+.left_section form input[type="checkbox"] {
+  margin: 8px 2px;
+  margin-bottom: 4px;
+  width: initial;
+  border: initial;
+}
+.right_section {
+  width: 520px;
+  height: 530px;
+}
+.login_image_bg {
+  width: 520px;
+  height: 530px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: url("./images/background_login.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#signup_div {
+  width: 520px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.014);
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 530px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+#signup_div h4 {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 55px;
+}
+#signup_div:hover {
+  background-color: #3d1a5c75;
+  color: #ffffff;
+  text-shadow: 0.5px 0.5px 3px #000000;
+}
+.login_btns {
+  width: 300px;
+  margin-top: 13px;
+}
+.login_btns button {
+  width: 260px;
+  margin: 9px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 4px;
+  color: rgb(247, 246, 245);
+  text-shadow: 0.5px 0.5px 3px black;
+  box-shadow: 0px 0px 1px black;
+  background-color: #9052c4;
+  border: 1.6px outset rgba(0, 0, 0, 0.609);
+}
+#login_logo_img {
+  width: 278px;
+  border-radius: 2px;
+  margin-bottom: 4px;
+}
+.login_logo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 55px;
+  padding: 5px;
+  text-shadow: 1px 1px 10px black;
+}
+.login_left_last {
+  text-shadow: 1px 1px 8px black;
+  padding: 4px;
+  font-size: 23px;
+  color: white;
+  margin-left: 22px;
+  text-align: center;
+  font-family: "Arial Narrow Bold", sans-serif;
+  text-shadow: 0.2px 0.2px 0.2px black;
+  text-decoration: none;
+  border-bottom: 1.5px outset white;
+}
+.l_left_last {
+  margin-top: 18px;
+  margin-left: 13px;
+}
+.container_login {
+  height: 100vh;
+  background-image: url("./images/real_bg.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #0519225b;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.modal_login {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  border-radius: 5px;
+}
+.login_modal_base {
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0.6px 0.6px 1.5px black;
+  color: rgb(247, 246, 245);
+  text-shadow: 0.5px 0.5px 4px black;
+  box-shadow: 0px 0px 3 black;
+  background-color: #9052c4;
+  width: fit-content;
+  margin: auto;
+  height: 35px;
+  /*kya karu iska*/
+  transition: visibility 1s ease-in-out;
+  margin-top: 40px;
+}
